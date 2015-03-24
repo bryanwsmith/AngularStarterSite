@@ -1,0 +1,24 @@
+<div class="col s2">
+  <div class="card blue-grey darken-1">
+    <div class="card-content white-text center">
+      <span class="card-title">
+        <div class="header">
+          <div class="icon">
+            <span>
+              <img src="content/img/myhealth.png" />
+            </span>
+          </div>
+          <div>
+            <span style="white-space: nowrap;font-size: 0.85em; ">{{tileInfo.title}}</span>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div class="card-action" style='min-height: 300px;'>
+      <ul>
+        <li ng-repeat="action in tileInfo.actions"><a href="#">{{action}}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

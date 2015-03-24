@@ -1,0 +1,57 @@
+/login
+	header
+	footer	
+	login box
+	content tile - form
+	content tile - link
+
+/profile
+	header/footer
+	media slider
+	custom message
+	content-tiles / 3 wide
+
+/coverages
+
+	header/footer
+	media slider
+	custom message
+	content-tiles / 3 wide
+
+/help
+	header/footer
+	media slider
+	custom message
+	content-tiles / 3 wide
+	assist form
+
+/market
+
+What are we storing?
+	links to secure and unsecure content at different providers per employer
+	analytic data from the front-end
+	gamification data that ties to analytic data
+	
+What are we not storing?
+	obviously no pii, no phi
+	
+Is it temporal? (are we really just talking about session?)
+	No, it will be reported on in different systems
+
+Who wants this data?
+	SalesForce
+	analytic engine (back-end log tool from piwik)
+
+Can it be represented in a traditional relational database?
+	Yes, but why?
+
+transaction's aren't important
+relationships aren't important , it takes analysis and non-linear thinking to find causation/correlation 
+all of that is just overhead
+external events (webhook data) is dynamic
+allows us to loosely couple external vendor event data
+real-time analytics (vendor and benefit market) + sales force event processing + gamification = a bunch of unstructured event data 
+raven is not free
+mongo has more support
+could be deployed along side the application, similar to how app+database exist on one server for umbraco
+built-in support for ravendb (management studio + paid support)

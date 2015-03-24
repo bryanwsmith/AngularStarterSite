@@ -1,0 +1,8 @@
+{
+    "proxy":"http://proxy:8080",
+    "https-proxy":"http://proxy:8080",
+    "http-proxy":"http://proxy:8080",
+    "strict-ssl": false,
+    "directory": "app/bower_components",
+    "alt-proxy" : "http://proxy2:8080"
+}

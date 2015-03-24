@@ -1,0 +1,13 @@
+<div class="col s12">
+  <div class="slider">
+    <ul class="slides">
+      <li ng-repeat="item in mediaInfo">
+        <img ng-src="{{item.imageUrl}}" />
+        <div class="caption left-align">
+          <h3>{{item.tagline}}</h3>
+          <h5 class="light grey-text text-lighten-3">{{item.slogan}}</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

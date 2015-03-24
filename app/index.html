@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Home - AF BenefitMarket Private Exchange</title>
+  <link rel="icon" href="content/ico/favicon.ico">
+
+  <!-- Application -->
+  <link href="content/css/app.css" rel="stylesheet" />
+
+  <!-- Bootstrap -->
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet" />
+  <link href="bower_components/bootstrap-material-design/dist/css/material-wfont.min.css" rel="stylesheet" />
+
+  <!-- Dependencies -->
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script type="text/javascript" src="bower_components/angular-animate/angular-animate.js"></script>
+  <script type="text/javascript" src="bower_components/angular-aria/angular-aria.js"></script>
+
+  <!-- Base module -->
+  <script type="text/javascript" src="app.module.js"></script>
+  <script type="text/javascript" src="app.config.js"></script>
+  <script type="text/javascript" src="app.routes.js"></script>
+
+  <!-- Services module -->
+  <script type="text/javascript" src="services/services.module.js"></script>
+  <script type="text/javascript" src="services/modal.service.js"></script>
+  <script type="text/javascript" src="services/employer.service.js"></script>
+  <script type="text/javascript" src="services/security.service.js"></script>
+
+  <!-- Layout module -->
+  <script type="text/javascript" src="layout/layout.module.js"></script>
+  <script type="text/javascript" src="layout/layout.routes.js"></script>
+
+  <!-- Header module -->
+  <script type="text/javascript" src="header/header.module.js"></script>
+  <script type="text/javascript" src="header/header.routes.js"></script>
+  <script type="text/javascript" src="header/header.controller.js"></script>
+
+  <!-- Footer module -->
+  <script type="text/javascript" src="footer/footer.module.js"></script>
+  <script type="text/javascript" src="footer/footer.routes.js"></script>
+  <script type="text/javascript" src="footer/footer.controller.js"></script>
+
+  <!-- Login module -->
+  <script type="text/javascript" src="login/login.module.js"></script>
+  <script type="text/javascript" src="login/login.routes.js"></script>
+  <script type="text/javascript" src="login/login.controller.js"></script>
+  <script type="text/javascript" src="login/help.controller.js"></script>
+
+  <!-- Portal module -->
+  <script type="text/javascript" src="portal/portal.module.js"></script>
+  <script type="text/javascript" src="portal/portal.routes.js"></script>
+  <script type="text/javascript" src="portal/portal.controller.js"></script>
+
+  <!-- Profile module -->
+  <script type="text/javascript" src="profile/profile.module.js"></script>
+  <script type="text/javascript" src="profile/profile.routes.js"></script>
+  <script type="text/javascript" src="profile/profile.controller.js"></script>
+
+  <!-- Coverages module -->
+  <script type="text/javascript" src="coverages/coverages.module.js"></script>
+  <script type="text/javascript" src="coverages/coverages.routes.js"></script>
+  <script type="text/javascript" src="coverages/coverages.controller.js"></script>
+
+  <!-- Employment module -->
+  <script type="text/javascript" src="employment/employment.module.js"></script>
+  <script type="text/javascript" src="employment/employment.routes.js"></script>
+  <script type="text/javascript" src="employment/employment.controller.js"></script>
+
+  <!-- Health module -->
+  <script type="text/javascript" src="health/health.module.js"></script>
+  <script type="text/javascript" src="health/health.routes.js"></script>
+  <script type="text/javascript" src="health/health.controller.js"></script>
+
+  <!-- Market module -->
+  <script type="text/javascript" src="market/market.module.js"></script>
+  <script type="text/javascript" src="market/market.routes.js"></script>
+  <script type="text/javascript" src="market/market.controller.js"></script>
+
+  <!-- Help module -->
+  <script type="text/javascript" src="help/help.module.js"></script>
+  <script type="text/javascript" src="help/help.routes.js"></script>
+  <script type="text/javascript" src="help/help.controller.js"></script>
+
+</head>
+
+<body data-ng-app="employeePortal" data-ng-strict-di>
+  <div data-ui-view class="view-transition container-fluid"></div>
+  <!-- Bootstrap -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+  <script src="bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $.material.init();
+    });
+  </script>
+</body>
+
+</html>

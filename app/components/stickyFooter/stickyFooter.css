@@ -1,0 +1,17 @@
+.sticky-footer {
+  background-color: #939598;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding-left: 2em;
+  padding-right: 1em;
+}
+.sticky-footer > .icon-tray {
+  white-space: nowrap;
+}
+.icon-tray md-list md-item a {
+  color: white;
+}
+.footer-text-menu md-list md-item a {
+  color: white;
+}

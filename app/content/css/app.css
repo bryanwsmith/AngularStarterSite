@@ -1,0 +1,17 @@
+/*ng-animate animation used for view transitions*/
+.view-transition.ng-enter {
+  -webkit-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+  opacity: 0; }
+
+.view-transition.ng-enter.ng-enter-active {
+  opacity: 1; }
+
+.view-transition.ng-leave {
+  -webkit-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+  opacity: 0; }
+
+.view-transition.ng-leave.ng-leave-active {
+  opacity: 0;
+  display: none; }

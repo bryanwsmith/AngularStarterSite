@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <h3>Employee Login</h3>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <input type="text" placeholder="Username" data-ng-model="loginVM.username" />
+        </div>
+        <div class="form-group">
+          <input type="Password" placeholder="Password" data-ng-model="loginVM.password" />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-info" data-ng-click="loginVM.authenticate()">Login</button>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-4">
+      Employer Login
+    </div>
+    <div class="col-md-4">
+      Get Help
+    </div>
+  </div>
+  <div class="row">
+    <ul>
+      <li><a href="#/portal">Employee Login</a>
+      </li>
+      <li><a href="#/portal">Clock In/Out</a>
+      </li>
+      <li><a href="#/portal">Employer Login</a>
+      </li>
+      <li><a href="#/login/help">FAQ</a>
+      </li>
+    </ul>
+    <div>
+      <span>login template [0.00]</span>
+    </div>
+  </div>
+</div>
